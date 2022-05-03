@@ -1,0 +1,129 @@
+@font-face{
+    font-family: BIRDMAN;
+    src: url(fonts/BIRDMAN_.TTF);
+}
+
+
+*{
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.sep{
+    height: 80px;
+    padding: 0 15px;
+    margin: 0 9px;
+}
+
+.navegacion{
+    background: #262626;
+}
+
+.container{
+    height: 100%;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+img{
+    width: 155px;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.barra-nav{
+    width: 50%;
+}
+
+
+.rutas{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    padding: 5px 0;
+    justify-content: center;
+}
+
+.rutas-links{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.rut{
+    text-decoration: none;
+    color: #D8D8D8;
+    font-size: 15px;
+    transition: all 0.15s;
+}
+
+.rut:hover{
+    color: #F8F8F8;
+}
+
+
+.cartelera{
+    height: 420px;
+    background: linear-gradient(rgba(0, 0, 0, .50) 50%, rgba(0, 0, 0, .50) 50%), url(img,s/esta.jpg);
+    display: flex;
+    background-position: center center;
+    align-items: flex-end;
+}
+
+.cont-pelicula{
+    margin-bottom: 35px;
+    margin-left: 40px;
+}
+
+
+.cart-title{
+    font-family: BIRDMAN;
+    font-size: 65px;
+    margin-bottom: 0.4em;
+    color: #fff;
+}
+
+.descript{
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: normal;
+    width: 65%;
+    font-size: 1em;
+    line-height: 1.75em;
+    margin-bottom: 1.25em;
+}
+
+.boton{
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.10s ease all;
+    font-size: 18px;
+}
+
+.boton:hover{
+    background: #F0F0F0;
+    color: #000;
+}
+
+#el-prueba{
+    height: 400px;
+    background: #262626;
+    display: flex;
+    align-items: flex-end;
+}
